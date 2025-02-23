@@ -8,7 +8,7 @@
  "margin":0,
  "name":"SK_Blocks",
  "spacing":0,
- "tilecount":18,
+ "tilecount":22,
  "tiledversion":"1.10.2",
  "tileheight":8,
  "tileproperties":
@@ -53,9 +53,25 @@
         {
          "material":"SK_2"
         },
+     "18":
+        {
+         "material":"SK_23"
+        },
+     "19":
+        {
+         "material":"SK_24"
+        },
      "2":
         {
          "material":"SK_19"
+        },
+     "20":
+        {
+         "material":"SK_25"
+        },
+     "21":
+        {
+         "material":"SK_21"
         },
      "3":
         {
@@ -128,7 +144,23 @@
         {
          "material":"string"
         },
+     "18":
+        {
+         "material":"string"
+        },
+     "19":
+        {
+         "material":"string"
+        },
      "2":
+        {
+         "material":"string"
+        },
+     "20":
+        {
+         "material":"string"
+        },
+     "21":
         {
          "material":"string"
         },
@@ -259,6 +291,18 @@
          "imageheight":8,
          "imagewidth":8
         },
+     "18":
+        {
+         "image":"sk_23ico.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "19":
+        {
+         "image":"sk_24ico.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
      "2":
         {
          "height":8,
@@ -268,6 +312,18 @@
          "width":8,
          "x":0,
          "y":0
+        },
+     "20":
+        {
+         "image":"sk_25ico.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "21":
+        {
+         "image":"sk_21ico.png",
+         "imageheight":8,
+         "imagewidth":8
         },
      "3":
         {
