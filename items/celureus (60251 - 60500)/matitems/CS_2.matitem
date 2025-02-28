@@ -4,8 +4,8 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "CS_2ico.png",
-  "description" : "Some Energy Pipe",
-  "shortdescription" : "Energy Pipe",
+  "description" : "Plate Armor Type 2",
+  "shortdescription" : "Plate Armor Type 2",
 
   "materialId" : 60252
 }
