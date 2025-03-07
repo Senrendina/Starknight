@@ -13,7 +13,7 @@
   "orientations": [
     {
       "imageLayers" : [ { "image" : "CSR_Teleporter.png:<color>.<frame>"}, { "image" : "CSR_Teleporterlit.png:<color>.<frame>", "fullbright" : true  }  ],
-      "imagePosition": [0, 0],
+      "imagePosition": [-32, 0],
       "frames": 5,
       "animationCycle": 1.0,
       "spaceScan": 0.1,

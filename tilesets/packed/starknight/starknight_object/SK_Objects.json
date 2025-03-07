@@ -232,7 +232,7 @@
         },
      "9":
         {
-         "imagePositionX":"-16",
+         "imagePositionX":"-32",
          "imagePositionY":"0",
          "object":"SK_teleporter",
          "tilesetdirection":"right"
