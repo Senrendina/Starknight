@@ -1,5 +1,5 @@
 {
-  "verticalOrigin" : -19,
+  "verticalOrigin" : 0,
 
   "layers" : [
     {
@@ -33,13 +33,15 @@
     {
       "kind" : "eldocityscape_2",
       "offset" : [0, 140],
+      "noRandomOffset" : true,	  
       "parallax" : 4,
       "nohueshift" : true,	  
-      "fadePercent" : 0.1,	  
+      "fadePercent" : 0.1	  
     },
     {
       "kind" : "eldocityscape_2unlit",
       "offset" : [0, 140],
+      "noRandomOffset" : true,		  
       "parallax" : 4,
       "nohueshift" : true,	  
       "fadePercent" : 0.1,
@@ -48,13 +50,15 @@
     {
       "kind" : "eldocityscape_3",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 2.8,
       "nohueshift" : true,	  
-      "fadePercent" : 0.04,	  
+      "fadePercent" : 0.04	  
     },
     {
       "kind" : "eldocityscape_3unlit",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 2.8,
       "nohueshift" : true,	  
       "fadePercent" : 0.04,
@@ -63,6 +67,7 @@
     {
       "kind" : "eldocityscape_4",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 2.5,
       "nohueshift" : true,	  
       "fadePercent" : 0.06
@@ -70,6 +75,7 @@
     {
       "kind" : "eldocityscape_4unlit",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 2.5,
       "nohueshift" : true,	  
       "fadePercent" : 0.06,
@@ -78,12 +84,15 @@
     {
       "kind" : "eldocityscape_1",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 3.25,
+      "nohueshift" : true,		  
       "fadePercent" : 0.06
     },
     {
       "kind" : "eldocityscape_1unlit",
       "offset" : [0, 150],
+      "noRandomOffset" : true,		  
       "parallax" : 3.25,
       "nohueshift" : true,	  
       "fadePercent" : 0.06,
