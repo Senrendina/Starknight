@@ -25,7 +25,6 @@
         "select" : 1,
         "pool" : [
           [ 0.4, "xenofly" ],
-          [ 0.3, "banishedcannon" ],
           [ 0.3, "blueback" ]
         ]
       },
@@ -69,7 +68,7 @@
   "subBlocks" : [ "BD_6", "BD_1", "BD_2", "BD_4", "metallic" ],
   "ores" : "sk_ore_surface",
 
-  "parallax" : "/parallax/surface/scorchedcity.parallax",
+  "parallax" : "/parallax/surface/SK_EldoraCity.parallax",
 
   "ambientNoises" : {
     "day" : {

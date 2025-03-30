@@ -7,7 +7,7 @@
       "layers": {
         "surface": {
           "primaryRegion" : ["sk_eldora_biome"],
-          "secondaryRegions" : ["forest", "bd_eldora_biome"],
+          "secondaryRegions" : ["bd_eldora_biome"],
           "dungeons" : [
 			[4.0, "StarknightAirShip"],
 			[1.0, "dungeoncrawler"],

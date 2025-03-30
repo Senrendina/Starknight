@@ -34,10 +34,10 @@
   },
 
   "mainBlock" : "SK_28",
-  "subBlocks" : [ "SK_29", "SK_1", "SK_3" ],
+  "subBlocks" : [ "SK_29", "SK_30" ],
   "ores" : "sk_ore_surface",
 
-  "parallax" : "/parallax/surface/forest.parallax",
+  "parallax" : "/parallax/surface/SK_EldoraCity.parallax",
 
   "ambientNoises" : {
     "day" : {
