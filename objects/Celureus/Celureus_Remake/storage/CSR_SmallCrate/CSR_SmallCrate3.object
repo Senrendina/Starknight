@@ -10,45 +10,40 @@
   "shortdescription": "Metal Storage Crate",
   "race": "generic",
   "health": 1.5,
-  "apexDescription": "A storage container.",
-  "avianDescription": "A device that holds many items for safe keeping.",
-  "floranDescription": "Ssstorage on a wall! For my sship!",
-  "glitchDescription": "Pleased. This ship's storage system is indeed useful.",
-  "humanDescription": "A storage locker. That's handy!",
-  "hylotlDescription": "An elegant storage solution.",
-  "novakidDescription": "A locker, for puttin' things in.",
   "inventoryIcon": "CSR_SmallCrate3.png",
- "orientations" : [
+  "orientations": [
     {
-      "imageLayers" : [ { "image" : "CSR_SmallCrate3.png"}, { "image" : "CSR_SmallCrate3lit.png:", "fullbright" : true  }  ],
-      "imagePosition" : [0, 0],
-      
-	  "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-	  "collision": "platform",
-      "direction" : "left",
-      "flipImages" : true
+      "imageLayers": [
+        { "image": "CSR_SmallCrate3.png" },
+        { "image": "CSR_SmallCrate3lit.png", "fullbright": true }
+      ],
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform",
+      "direction": "left",
+      "flipImages": true
     },
-        {
-      "imageLayers" : [ { "image" : "CSR_SmallCrate3.png"}, { "image" : "CSR_SmallCrate3lit.png:", "fullbright" : true  }  ],
-      "imagePosition" : [0, 0],
-	  
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-	  "collision": "platform",
-      "direction" : "right"      
-    }    
+    {
+      "imageLayers": [
+        { "image": "CSR_SmallCrate3.png" },
+        { "image": "CSR_SmallCrate3lit.png", "fullbright": true }
+      ],
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform",
+      "direction": "right"
+    }
   ],
-    "openSounds": ["/sfx/objects/shippingcontainer_open.ogg"],
+  "openSounds": ["/sfx/objects/shippingcontainer_open.ogg"],
   "closeSounds": ["/sfx/objects/shippingcontainer_close.ogg"],
   "slotCount": 16,
-    "uiConfig": "/interface/chests/chest<slots>.config",
-    "frameCooldown": 5,
-    "autoCloseCooldown": 3600
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
 }
