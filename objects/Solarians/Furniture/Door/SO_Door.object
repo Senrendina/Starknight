@@ -31,7 +31,7 @@
 	"scripts": ["/objects/wired/door/door.lua"],
 	"scriptDelta": 5,
  
-    "animation" : "/objects/Solarians/furniture/Door/SO_Door.animation",
+    "animation" : "/objects/Solarians/Furniture/Door/SO_Door.animation",
 
     "animationCustom" : {
     "sounds" : {
