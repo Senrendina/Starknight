@@ -3,7 +3,7 @@
     "price": 500,
     "maxStack": 1,
     "level": 2,
-    "rarity": "Common",
+    "rarity": "Rare",
     "description": "Some Celureus Sword",
     "shortdescription": "Echofang",
     "tooltipKind": "sword",
@@ -28,6 +28,6 @@
         "primaryAbility": {
 		  "scripts" : ["/items/active/starknight/weapons/melee/broadsword/cs_Echofang/assistedmeleecombo.lua"]
         },
-        "altAbilityType": "giantsword",
+        "altAbilityType" : "greatwave",  
         "builder": "/items/buildscripts/buildunrandweapon.lua"
 }

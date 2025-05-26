@@ -88,7 +88,7 @@
 			//chop
             "fire2" : {
 			  "properties" : {
-			    "image" : "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/swoosh/chop/physicalswoosh.png:<frame>?flipy",
+			    "image" : "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>?flipy",
 			    "offset":[0.5, -1], 
 				"damageArea":[[-3, 1], [5.0, 1], [6.0, -1], [-4, -1]]
 			  }
@@ -104,7 +104,7 @@
 			//uppercut
             "fire4" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>?flipy",
+                "image" : "/items/active/swoosh/feswoosh2.png:<frame>",
                 "offset" : [0, -2.5],
                 "damageArea" : [[-5, -2], [-2.5, -3], [1, -3], [4, -1.75], [5, 0.25], [5, 2.25], [4, 3.25], [0, 2.5]]
               }
