@@ -1,0 +1,187 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "swoosh" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          },
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.125,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "fire2" : {
+            "frames" : 3,
+            "cycle" : 0.125,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "fire3" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "fire4" : {
+            "frames" : 3,
+            "cycle" : 0.255,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "blade" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+		  "fullbright": true,
+          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "offset" : [0, 1.5],
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0],
+          "damageArea" : [ [-0.7, -1.0], [-0.7, 2.5], [0.5, 2.5], [0.5, -1.0] ]
+        }
+      },
+      "handle" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "offset" : [0, 1.5],
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0]
+        }
+      },
+      "swoosh" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "fullbright" : true,
+          "transformationGroups" : ["swoosh"],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "swoosh" : {
+            "idle" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+			//backhand
+            "fire" : {
+			  "properties" : {
+			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
+			    "offset":[-1.1, 1], 
+				"damageArea":[[-7, 1], [6.5, 1], [5.5, -1], [-8, -1]]
+			  }
+			},
+			//chop
+            "fire2" : {
+			  "properties" : {
+			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/chop/physicalswoosh.png:<frame>?flipy",
+			    "offset":[0.5, -1], 
+				"damageArea":[[-3, 1], [5.0, 1], [6.0, -1], [-4, -1]]
+			  }
+			},
+			//backhand
+            "fire3" : {
+			  "properties" : {
+			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
+			    "offset":[-1.1, 1], 
+				"damageArea":[[-7, 1], [6.5, 1], [5.5, -1], [-8, -1]]
+			  }
+			},
+			//uppercut
+            "fire4" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>?flipy",
+                "offset" : [0, -2.5],
+                "damageArea" : [[-5, -2], [-2.5, -3], [1, -3], [4, -1.75], [5, 0.25], [5, 2.25], [4, 3.25], [0, 2.5]]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "swoosh" : {}
+  },
+
+  "particleEmitters" : {
+    "physicalswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 1,
+      "burstCount" : 1,
+      "particles" : []
+    },
+    "fireswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 50,
+      "burstCount" : 4,
+      "particles" : [
+      ]
+    },
+    "electricswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 50,
+      "burstCount" : 10,
+      "particles" : [
+      ]
+    },
+    "poisonswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 50,
+      "burstCount" : 3,
+      "particles" : [
+      ]
+    },
+    "iceswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 50,
+      "burstCount" : 3,
+      "particles" : [
+      ]
+    },
+	"blade" : {
+      "active" : true,
+      "transformationGroups" : ["weapon"],
+      "offsetRegion" : [-0.5, 1.5, 0.5, 6.0],
+      "emissionRate" : 5,
+      "particles" : [
+      ]
+    }
+  },
+  
+  "lights" : {
+    "glow" : {
+      "position" : [0, 2.0],
+      "color" : [100, 100, 100],
+      "transformationGroups" : ["weapon"]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ ],
+    "fire2" : [ ],
+    "fire3" : [ ],
+	"fire4" : [ ]
+  }
+}
