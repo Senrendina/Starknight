@@ -80,7 +80,7 @@
 			//backhand
             "fire" : {
 			  "properties" : {
-			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
+			    "image" : "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
 			    "offset":[-1.1, 1], 
 				"damageArea":[[-7, 1], [6.5, 1], [5.5, -1], [-8, -1]]
 			  }
@@ -88,7 +88,7 @@
 			//chop
             "fire2" : {
 			  "properties" : {
-			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/chop/physicalswoosh.png:<frame>?flipy",
+			    "image" : "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/swoosh/chop/physicalswoosh.png:<frame>?flipy",
 			    "offset":[0.5, -1], 
 				"damageArea":[[-3, 1], [5.0, 1], [6.0, -1], [-4, -1]]
 			  }
@@ -96,7 +96,7 @@
 			//backhand
             "fire3" : {
 			  "properties" : {
-			    "image" : "/items/active/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
+			    "image" : "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/swoosh/backhand/physicalswoosh.png:<frame>",
 			    "offset":[-1.1, 1], 
 				"damageArea":[[-7, 1], [6.5, 1], [5.5, -1], [-8, -1]]
 			  }
@@ -179,9 +179,8 @@
   },
 
   "sounds" : {
-    "fire" : [ ],
-    "fire2" : [ ],
-    "fire3" : [ ],
-	"fire4" : [ ]
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
   }
 }

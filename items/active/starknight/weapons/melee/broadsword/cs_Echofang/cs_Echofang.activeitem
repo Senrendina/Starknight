@@ -15,7 +15,7 @@
         "broadsword"
     ],
     "inventoryIcon": "cs_Echofang.png",
-    "animation": "/items/active/weapons/melee/broadsword/cs_Echofang/cs_Echofang.animation",
+    "animation": "/items/active/starknight/weapons/melee/broadsword/cs_Echofang/cs_Echofang.animation",
     "animationParts": {
 		"handle": "cs_EchofangHandle.png",
 		"blade": "cs_EchofangBlade.png"
@@ -26,7 +26,7 @@
         "elementalType": "fire",
         "primaryAbilityType": "cs_EchofangCombo",
         "primaryAbility": {
-		  "scripts" : ["/items/active/weapons/melee/broadsword/cs_Echofang/assistedmeleecombo.lua"]
+		  "scripts" : ["/items/active/starknight/weapons/melee/broadsword/cs_Echofang/assistedmeleecombo.lua"]
         },
         "altAbilityType": "giantsword",
         "builder": "/items/buildscripts/buildunrandweapon.lua"

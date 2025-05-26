@@ -3,7 +3,7 @@
 	{
 		"op" : "add",
 		"path" : "/cs_EchofangCombo",
-		"value": "/items/active/weapons/melee/abilities/broadsword/cs_EchofangCombo.weaponability"
+		"value": "/items/active/starknight/weapons/melee/abilities/broadsword/cs_EchofangCombo.weaponability"
 	},
 	{
 	"op": "add",
