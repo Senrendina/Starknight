@@ -9,14 +9,6 @@
 	"shortdescription": "Door",
 	"race": "generic",
 	
-	"apexDescription": "This door looks strong enough to keep anything out... or everyone in.",
-	"avianDescription": "A strong door. Not even the breeze could slip through.",
-	"floranDescription": "A normal door to keep people out! Or in...",
-	"glitchDescription": "Jealous. Such strong materials.",
-	"humanDescription": "A huge, heavy security door.",
-	"hylotlDescription": "This looks strong enough to hold back the ocean.",
-	"novakidDescription": "A very thick door.",
-	
 	"inventoryIcon": "Door1.png:default",
     "orientations" : [
     {
@@ -31,7 +23,7 @@
 	"scripts": ["/objects/wired/door/door.lua"],
 	"scriptDelta": 5,
  
-    "animation" : "/objects/Solarians/Furniture/Door/SO_Door.animation",
+    "animation" : "/objects/Solarians/Furniture/Door/SO_Door/SO_Door.animation",
 
     "animationCustom" : {
     "sounds" : {
