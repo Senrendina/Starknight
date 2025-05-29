@@ -52,9 +52,9 @@
       },
       "meleeWeaponCooldowns" : {
         "default" : 1.0,
-        "broadsword" : 1.7,
+        "broadsword" : 1.0,
         "dagger" : 0.7,
-        "axe" : 1.4,
+        "axe" : 1.2,
         "hammer" : 2.0,
         "shortsword" : 1.0,
         "spear" : 1.4
@@ -99,7 +99,7 @@
         "baseValue" : 1.0
       },
       "healthRegen" : {
-        "baseValue" : 1.0
+        "baseValue" : 0.5
       }
     }
   }
