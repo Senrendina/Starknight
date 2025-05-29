@@ -84,7 +84,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"radioMessages\" : [\"Starknightmission3-10\"}",
+                     "parameters":"{ \"radioMessages\" : [\"Starknightmission3-10\"] }",
                      "stagehand":"radiomessage"
                     },
                  "propertytypes":
