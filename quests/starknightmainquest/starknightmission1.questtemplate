@@ -6,7 +6,9 @@
   "completionText" : "You brought me the parts, Wonderful! Please, take this weapon as thanks. It's a prototype of our Solarian Ally, and I believe it will be a great help to you.",
   "moneyRange" : [100, 100],
   "rewards" : [
-    [ [ "SO_OrianBurst", 1 ] ]
+    [ [ "SO_OrianBurst", 1 ], 
+	  [ "SK_StarknightBaseTeleporter", 1 ]
+	]
   ],
 
   "updateDelta" : 10,

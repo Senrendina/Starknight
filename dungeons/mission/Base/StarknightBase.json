@@ -765,42 +765,6 @@
                  "y":1056
                 }, 
                 {
-                 "gid":7675,
-                 "height":16,
-                 "id":1300,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":3368,
-                 "y":1128
-                }, 
-                {
-                 "gid":7675,
-                 "height":16,
-                 "id":1301,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":3424,
-                 "y":1128
-                }, 
-                {
-                 "gid":7675,
-                 "height":16,
-                 "id":1302,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":3480,
-                 "y":1128
-                }, 
-                {
                  "gid":7687,
                  "height":16,
                  "id":1303,
@@ -2479,26 +2443,6 @@
                  "width":32,
                  "x":6000,
                  "y":512
-                }, 
-                {
-                 "gid":6898,
-                 "height":64,
-                 "id":1457,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"interactData\" : \"\/interface\/warping\/StarknightBaseWrap.config\" }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":3744,
-                 "y":1128
                 }],
          "opacity":1,
          "type":"objectgroup",
