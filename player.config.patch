@@ -362,10 +362,10 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_EnergyCapsule" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_SmallRedPlate" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_SmallBlackPlate" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_MagneticDisk" } }
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_MagneticDisk" } },
 //CELUREUS REMAKE
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_CaptainChair" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_CraftinTable" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_CraftingTable" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Chair" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Couch" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_FTL" } },
@@ -406,7 +406,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Server2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_ShipCoreGenerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_ShipCoreGeneratorLeftRight" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_StandingConsole" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_StandingConsole" } }
 
 //FURNITURE
 
