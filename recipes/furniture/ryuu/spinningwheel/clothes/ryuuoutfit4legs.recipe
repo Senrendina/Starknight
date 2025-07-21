@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "fabric", "count" : 10 }
-  ],
-  "output" : { "item" : "ryuuoutfit4legs", "count" : 1 },
-  "groups" : [ "craftingwheel", "clothes" ]
-}
