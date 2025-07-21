@@ -27,7 +27,7 @@
       "flipImages" : true,
       "direction" : "left",
       "imagePosition" : [-17, 0],
-      "frames" : 6,
+      "frames" : 1,
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -36,7 +36,7 @@
       "image" : "flagryuu.png:<color>.<frame>",
       "direction" : "right",
       "imagePosition" : [1, 0],
-      "frames" : 6,
+      "frames" : 1,
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

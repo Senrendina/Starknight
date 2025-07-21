@@ -18,9 +18,9 @@
   "inventoryIcon" : "fuelhatchicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "ryuufuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "ryuufuelhatchlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "ryuufuelhatch.png", "fullbright" : true }, { "image" : "ryuufuelhatchlit.png" } ],
       "imagePosition" : [-8, -16],
-      "frames" : 4,
+      "frames" : 1,
       "animationCycle" : 0.7,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

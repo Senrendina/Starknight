@@ -1,0 +1,47 @@
+{
+  "objectName": "CSR_Canister3",
+  "colonyTags": ["Celureus", "storage"],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "objectType": "container",
+  "tooltipKind": "container",
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Canister",
+  "race": "generic",
+  "health": 1.5,
+  "inventoryIcon": "CSR_Canister3.png",
+ "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "CSR_Canister3.png"}, { "image" : "CSR_Canister3lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "CSR_Canister3.png"}, { "image" : "CSR_Canister3lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "right"      
+    }    
+  ],
+    "openSounds": ["/sfx/objects/shippingcontainer_open.ogg"],
+  "closeSounds": ["/sfx/objects/shippingcontainer_close.ogg"],
+  "slotCount": 24,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

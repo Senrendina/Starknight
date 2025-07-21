@@ -7,8 +7,8 @@
   "category" : "decorative",
   "lightColor" : [61, 88, 102],
   "lightPosition" : [-1, 0],
-  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
-  "shortdescription" : "S.A.I.L",
+  "description" : "High-speed communication console",
+  "shortdescription" : "H.S.C.C",
   "race" : "ryuu",
   "apexDescription" : "I can talk to SAIL through this console.",
   "avianDescription" : "I can use this station to talk to SAIL.",
@@ -23,7 +23,7 @@
       "imageLayers" : [ { "image" : "ryuutechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "ryuutechstationlit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 32,
-      "animationCycle" : 3.0,
+      "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
@@ -36,22 +36,22 @@
   "scriptDelta" : 20,
   "shipPetType" : "petbunny",
   "spawnOffset" : [2, -1],
-  "chatPortrait" : "/ai/portraits/ryuuportrait.png:yell.1",
+  "chatPortrait" : "/ai/portraits/ryuuportrait.png:unique.1",
   "dialog" : {
     "wakeUp" : [
-      [ "Rebooting...", "/ai/portraits/ryuuportrait.png:unique.1" ],
-      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.", "/ai/portraits/ryuuportrait.png:talk.0" ],
-      [ "I am also programmed to offer you information and advice.", "/ai/portraits/ryuuportrait.png:talk.1" ],
-      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/ryuuportrait.png:talk.0" ],
-      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/ryuuportrait.png:talk.1" ]
+      [ "...", "/ai/portraits/ryuuportrait.png:unique.1" ],
+      [ "Ah, Hello there ! It's good to see you safe and sounds.", "/ai/portraits/ryuuportrait.png:talk.0" ],
+      [ "Don't worry about our home town. It's safe at the moment.", "/ai/portraits/ryuuportrait.png:talk.1" ],
+      [ "I'm not sure how the ship has been damaged but... You need to check out if all is operational.", "/ai/portraits/ryuuportrait.png:talk.0" ],
+      [ "So, for your first task, please go on the planet we just landed and see if they have anything useful.", "/ai/portraits/ryuuportrait.png:talk.1" ]
     ],
     "wakePlayer" : [
-      [ "System is down, please reboot.", "/ai/portraits/ryuuportrait.png:unique.1"],
-      [ "Please reboot the system.", "/ai/portraits/ryuuportrait.png:unique.1"],
-      [ "Reboot process remains uninitiated.", "/ai/portraits/ryuuportrait.png:unique.1"],
-      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/ryuuportrait.png:unique.1" ],
-      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/ryuuportrait.png:unique.1"],
-      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/ryuuportrait.png:unique.1" ]
+      [ "Hey ! Can you hear me ?", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Please, reboot the console...", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Don't make me wait please...", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Repair this console if you want me to help you.", "/ai/portraits/ryuuportrait.png:unique.1" ],
+      [ "I'm sure you cannot go somewhere without me !", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Without that console, you cannot make the ship functionnal", "/ai/portraits/ryuuportrait.png:unique.1" ]
     ]
   },
   "uniqueId" : "techstation"

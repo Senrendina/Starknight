@@ -17,12 +17,12 @@
   "hylotlDescription" : "An elegant storage solution. It's not currently powered.",
   "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
   
-  "inventoryIcon" : "shiplockericonTier0.png",
+  "inventoryIcon" : "ryuushiplockertier0icon.png",
   "orientations" : [
     {
       "image" : "ryuushiplockerTier0.png:<color>.<frame>",
       "imagePosition" : [-16, -8],
-      "frames" : 8,
+      "frames" : 4,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

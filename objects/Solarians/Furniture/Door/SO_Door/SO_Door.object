@@ -1,0 +1,48 @@
+{
+	"objectName": "SO_Door1",
+	"colonyTags": ["door"],
+	"rarity": "Rare",
+	
+	"category": "door",
+	"price": 135,
+	"description": "A door commonly used for ship",
+	"shortdescription": "Door",
+	"race": "generic",
+	
+	"inventoryIcon": "Door1.png:default",
+    "orientations" : [
+    {
+      "dualImage" : "Door1.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+	"scripts": ["/objects/wired/door/door.lua"],
+	"scriptDelta": 5,
+ 
+    "animation" : "/objects/Solarians/Furniture/Door/SO_Door/SO_Door.animation",
+
+    "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "Door1.png",
+    "fg" : "Door1lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
