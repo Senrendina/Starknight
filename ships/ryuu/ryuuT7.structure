@@ -9,12 +9,12 @@
   "backgroundOverlays" : [
     {
       "image" : "ryuuT7.png",
-      "position" : [8.39, 3.875],
+      "position" : [0, 0],
       "fullbright" : true
     },
     {
       "image" : "ryuuT7lit.png",
-      "position" : [8.39, 3.875]
+      "position" : [0, 0]
     }
   ],
   "blockKey" : "blockKey.config:blockKey",
