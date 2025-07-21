@@ -1,0 +1,213 @@
+{
+  "StarknightKalTharIntro" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Hello. Can you hear me? Yes, seems like you can. Just so you know, I added a sensor in your matter manipulator so we're able to scan a 10 meter radius around you."
+  },
+  "StarknightKalTharIntro2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "I see that you have reached the outpost. We need you to go check on the satellite and see why it's not functional anymore. Ryoko out."
+  },
+  "starknight_Satelliterepaired" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "hey ! You did it. Alright, you can come back now."
+  },
+  "StarknightBanishedPlatform" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "This Platform is of Banished origin, what is it doing here?"
+  },
+  "StarknightBanishedPlatform2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "Keep up your guard, I have a bad feeling about this..."	
+  },  
+  "StarknightExplaination" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Well... No wonder our satellite has been shut down. Go have fun and get rid of them."
+  },  
+  "StarknightExplaination2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Ah yeah i see that you want some explaination."
+  },  
+  "StarknightExplaination3" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSad.png:<frame>",	
+    "text" : "Banished are our enemy for decade. they were exiled for using their power for cruelty"
+  },  
+  "StarknightExplaination4" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSad.png:<frame>",	
+    "text" : "I don't know the exact detail. Only high ranking know what happened."	
+  },
+  "StarknightStrange" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "Hmmm ? I think i saw something strange a second ago..."
+  },
+  "StarknightSmirk" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Ah ! I was right about that. They may have made that to help us if we got problem."
+  },
+  "StarknightFamiliar" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Finally a open space."		
+  },
+  "StarknightAdvice" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Take the things inside of that locker, you'll need it."
+  },
+  "StarknightRemembering" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "Oh i remember that part. The satellite is nearby."		
+  },
+  "StarknightHard" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "Well, that was a hard fight. Onto more pressing matters, why do they want to shut down that satellite?"			
+  },
+  "Starknightmission3-1" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "You've arrived at the destination of the strange signal."			
+  },
+  "Starknightmission3-2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "This is my first time seeing this kind of structure. Are those...traps? Why?!"			
+  },
+  "Starknightmission3-3" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "We can't help you with this one, all we can do is hope for your safe passage."			
+  },
+  "Starknightmission3-4" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "From the data gathered we've concluded this facility has been built by one of our long-range science departments, they call themselves ^orange;The Solas^reset;."			
+  },
+  "Starknightmission3-5" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Like their namesake, most of their buildings are constructed from Solarium ore. It's a pretty interesting material, easy enough to mine but hard to use in most practical applications."			
+  },
+  "Starknightmission3-6" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "On to more pressing matters: Why is that strange signal coming from this facility?"			
+  },
+  "Starknightmission3-7" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Anyways, I've finished gathering data, there's a point of interest to your northeast."			
+  },
+  "Starknightmission3-8" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "You're about halfway there. Keep it up!"			
+  },
+  "Starknightmission3-9" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "It seems ^orange;The Solas^reset; used this place as a testing facility to study our latent abilities."			
+  },
+  "Starknightmission3-10" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "It's thanks to their help that we have the technology we have now. But they alone don't get all the credit.  Perhaps you might see some similar advancements from our other benefactors."			
+  },
+  "Starknightmission3-11" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "This container seems to be in a strange location. Better check it out."			
+  },
+  "Starknightmission3-12" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+    "text" : "Oh wow! That looked dangerous! But you got the hang of it didn't you?"			
+  },
+  "starknight_SourceFound" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "The signal is emitting straight from this...^cyan;workbench^reset;?"		
+  },
+  "starknight_SourceFound2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "This is the first time I've seen a ^cyan;bench^reset; like this! But how does it work? Why is it here?"		
+  },
+  "starknight_SourceFound3" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "Whatever. I don't think we can learn anything else here. Activate that console and head on back with the teleporter upstairs. We'll look more into this on our end. Thanks for your hard work."		
+  }		
+}  
+

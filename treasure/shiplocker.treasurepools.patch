@@ -5,7 +5,8 @@
     "value": [[0, {
       "fill" : [
         {"pool" : "starterTreasure"},
-        {"item" : [ "ryuusword", 1 ]}
+        {"item" : [ "starknight_suffer", 1 ]},
+		{"item" : [ "SK_5", 20 ]}
       ]
     }]]
   }
