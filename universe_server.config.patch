@@ -12,5 +12,10 @@
 			"/ships/ryuu/ryuut7.structure",
 			"/ships/ryuu/ryuut8.structure"
 		]
-	}
+	},
+  {
+    "op" : "add",
+    "path" : "/speciesShips/ryuu/-",
+    "value" : "/ships/byos/byos.structure"
+  }
 ]
