@@ -4,9 +4,9 @@
 	{"item": "CSK_TechUSB","count": 1}
     ],
     "output": {
-        "item": "BD_GLights",
+        "item": "BD_ShipLocker",
         "count": 1
     },
     "duration": 0.5,
-    "groups": ["BD_Replicator", "lights", "all"]
+    "groups": ["BD_Replicator", "storage", "all"]
 }

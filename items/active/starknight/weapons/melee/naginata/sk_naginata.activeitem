@@ -16,7 +16,7 @@
   "animation" : "/items/active/starknight/weapons/melee/naginata/SK_Naginata.animation",
   "animationParts" : {
     "handle": "Handle.png",
-	"swordfullbright" : "Fullbright.png",
+	"swordfullbright" : "fullbright.png",
     "blade" : "Blade.png"
   },
    "animationCustom" : {},
@@ -25,7 +25,7 @@
 
   "elementalType" : "physical",
 
- "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.8,
     "baseDps" : 10,
@@ -116,9 +116,14 @@
 
         "allowRotate" : false,
         "allowFlip" : true
-            }
-        }
-    },
+      }
+    }
+  },
+
+  "altAbilityType" : "sk_spearcharge",
+  "altAbility" : {
+    "flipCharge" : false
+  },
   
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

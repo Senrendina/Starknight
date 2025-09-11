@@ -5,34 +5,46 @@
 		"path" : "/cs_EchofangCombo",
 		"value": "/items/active/starknight/weapons/melee/abilities/broadsword/cs_EchofangCombo.weaponability"
 	},
+//Dragon Burst Shot	
 	{
 	"op": "add",
 	"path": "/dragonburstshot",
 	"value": "/item/active/weapon/ranged/abilities/dragonburstshot/dragonburstshot.weaponability"
 	},
+//Flashlight
 	{
 	"op": "add",
 	"path": "/BD_FlashLight",
 	"value": "/items/active/banished/weapons/ranged/abilities/BD_Flashlight/BD_FlashLight.weaponability"
 	},
+//Rising Fire	
 	{
 	"op": "add",
 	"path": "/Risingfire",
 	"value": "/items/active/banished/weapons/melee/abilities/Risingfire/Risingfire.weaponability"
 	},
+//Dash	
 	{
 	"op": "add",
 	"path": "/BD_Dash",
 	"value": "/items/active/banished/weapons/melee/abilities/BD_Dash/BD_Dash.weaponability"	
 	},
+//Laser	
 	{
 	"op": "add",
 	"path": "/laser",
 	"value": "/items/active/celureus/weapons/magic/abilities/laser/laser.weaponability"
-//Gun Sword Combo
 	},
+//Gun Sword Combo	
 	{
 		"op" : "add",
 		"path" : "/luyia-gunswordcombo",
 		"value": "/items/active/starknight/weapons/unique/abilities/luyia-gunswordcombo.weaponability"	
-}]
+	},
+//StarKnight SpearCharge
+	{
+		"op" : "add",
+		"path" : "/sk_spearcharge",
+		"value": "/items/active/starknight/weapons/melee/abilities/spear/sk_spearcharge/sk_spearcharge.weaponability"
+	}
+]

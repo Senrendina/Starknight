@@ -121,7 +121,7 @@
           "rotationCenter" : [0, 0]
         }
       },
-      "handleFullbright" : {
+      "swordfullbright" : {
         "properties" : {
           "zLevel" : 2,
           "centered" : true,

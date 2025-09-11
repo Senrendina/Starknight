@@ -15,7 +15,7 @@
     {
       "imageLayers" : [ { "image" : "BD_ShipLocker.png:<color>.<key>"}, { "image" : "BD_ShipLockerlit.png:<color>.<key>", "fullbright" : true } ],
       "imagePosition" : [0, 0],
-      "frames" : 4,
+      "frames" : 5,
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

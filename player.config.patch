@@ -331,7 +331,6 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_BGDoor1" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_Door" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_BLights" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_GLights" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_LightPylone" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_Spotlight" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_ShipLocker" } },

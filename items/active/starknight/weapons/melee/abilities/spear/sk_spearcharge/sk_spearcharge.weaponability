@@ -1,0 +1,135 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "stabSwoosh" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "fire" : {
+              "frames" : 5,
+              "cycle" : 0.2,
+              "mode" : "transition",
+              "transition" : "idle"
+            }
+          }
+        },
+        "bladeCharge" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : { },
+            "charge" : {
+              "cycle" : 1.2,
+              "mode" : "transition",
+              "transition" : "full",
+              "properties" : {
+                "persistentSound" : "/sfx/melee/charge_up13.ogg",
+                "persistentSoundStopTime" : 0.25
+              }
+            },
+            "full" : {
+              "mode" : "loop",
+              "properties" : {
+                "persistentSound" : "/sfx/melee/charge_full_hold1.ogg",
+                "immediateSound" : "/sfx/melee/sword_parry.ogg"
+              }
+            }
+          }
+        }
+      },
+      "parts" : {
+        "stabSwoosh" : {
+          "properties" : {
+            "zLevel" : -1,
+            "centered" : true,
+			"fullbright" : true,
+            "offset" : [-1.0, -1.0],
+            "transformationGroups" : ["swoosh"],
+            "rotationCenter" : [0, 0]
+          },
+          "partStates" : {
+            "stabSwoosh" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/starknight/weapons/melee/abilities/spear/sk_spearcharge/feswoosh.png:<frame>",
+                  "damageArea" : [ [-8, -2], [2, 0], [8, 2], [9.0, 0], [7.5, -1.2] ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ]
+    },
+    "particleEmitters" : {
+      "bladeCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+        "offsetRegion" : [0.5, 5.0, -0.5, 2.5],
+        "particles" : [
+          { "particle" : "sk_chargewhite"},
+          { "particle" : "sk_chargewhite"},
+          { "particle" : "sk_chargewhite"}
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Spear Charge",
+    "type" : "sk_spearcharge",
+    "scripts" : ["/items/active/starknight/weapons/melee/abilities/spear/sk_spearcharge/sk_spearcharge.lua"],
+    "class" : "SpearCharge",
+
+    "energyUsage" : 320.0,
+
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "baseDamage" : 22.5,
+      "knockback" : 40,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "alt",
+      "timeout" : 0.5
+    },
+
+    "chargeTime" : 1.2,
+    "cooldownTime" : 0.8,
+    "chargeBorder" : "006EE688",
+	
+	//checks to see if the weapon flips when fully charged
+	"flipCharge" : true,
+
+    "stances" : {
+      "windup" : {
+        "armRotation" : -115,
+        "weaponRotation" : -130,
+		"weaponOffset" : [0, 0.5],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "slash" : {
+        "duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+		"weaponOffset" : [0, 1.2],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
