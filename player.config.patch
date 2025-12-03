@@ -321,6 +321,10 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_7" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_8" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_9" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_10" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_11" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_12" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_13" } },
 //FURNITURE
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_BunkBed" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "BD_EnergyContainer" } },

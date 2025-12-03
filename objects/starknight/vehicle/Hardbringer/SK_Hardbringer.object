@@ -1,0 +1,36 @@
+{
+  "objectName": "SK_Hardbringer",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "The Missile Tank of Starknight. Out of fuel though...",
+  "shortdescription": "Starknight Hardbringer",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "Hardbringer.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "Hardbringer.png"}, { "image" : "Hardbringerlit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "Hardbringer.png"}, { "image" : "Hardbringerlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

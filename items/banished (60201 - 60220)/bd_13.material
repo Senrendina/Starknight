@@ -1,0 +1,21 @@
+{
+  "materialId" : 60213,
+  "materialName" : "BD_13",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "BD_13",
+  "shortdescription" : "Banished Floor",
+  "description" : "Banished Floor with Red Light",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_13.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 3000
+  }
+}

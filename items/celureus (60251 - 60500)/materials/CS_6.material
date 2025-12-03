@@ -2,7 +2,7 @@
   "materialId" : 60256,
   "materialName" : "CS_6",
     "particleColor" : [55, 55, 55, 255],
-  "itemDrop" : "CS_5",
+  "itemDrop" : "CS_6",
   "shortdescription" : "Locker Wall",
   "description" : "Locker Wall",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",

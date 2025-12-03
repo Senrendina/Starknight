@@ -19,7 +19,28 @@
 	"swordfullbright" : "Fullbright.png",
     "blade" : "Blade.png"
   },
-   "animationCustom" : {},
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "stabSwoosh" : {
+          "properties" : {
+            "zLevel" : -1,
+            "centered" : true,
+            "fullbright" : true,
+            "offset" : [-1.0, -1.0],
+            "transformationGroups" : ["swoosh"],
+            "rotationCenter" : [0, 0]
+              },
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/starknight/weapons/melee/abilities/spear/sk_spearcharge/feswoosh1.png:<frame>",
+                  "damageArea" : [ [-8, -2], [2, 0], [8, 2], [9.0, 0], [7.5, -1.2] ]
+                }
+              }
+            }
+          }
+        }
+      },
 
   "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
 
@@ -118,7 +139,12 @@
         "allowFlip" : true
             }
         }
-    },
+  },
+
+  "altAbilityType" : "sk_spearcharge",
+  "altAbility" : {
+    "flipCharge" : false
+  },
   
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
