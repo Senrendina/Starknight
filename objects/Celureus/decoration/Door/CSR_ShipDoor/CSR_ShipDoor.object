@@ -24,7 +24,7 @@
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/Celureus/Celureus_Remake/decoration/Door/CSR_ShipDoor/CSR_ShipDoor.animation",
+  "animation" : "/objects/Celureus/decoration/Door/CSR_ShipDoor/CSR_ShipDoor.animation",
 
   "animationCustom" : {
     "sounds" : {
