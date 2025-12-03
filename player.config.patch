@@ -138,6 +138,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_JetThunder" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_Crate2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_Behemoth" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_Hardbringer" } },
 //WIRES
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_console" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_server" } },
