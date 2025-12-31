@@ -367,12 +367,15 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Server2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_ShipCoreGenerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_ShipCoreGeneratorLeftRight" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_StandingConsole" } }
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_StandingConsole" } },
 
 //FURNITURE
 
 //WIRES
-
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_StandingConsole" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_LargeConsole" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Console" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "CSR_Server" } }
 //LIGHT
 
 //STORAGE

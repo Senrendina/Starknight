@@ -7,7 +7,7 @@
   "shortdescription" : "DeathShot",
   "tooltipKind" : "gun",
   "category" : "shotgun",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
   "level" : 3,
 
