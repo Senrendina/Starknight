@@ -21,7 +21,7 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 4,
+            "frames" : 1,
             "cycle" : 0.3,
             "mode" : "loop"
           }

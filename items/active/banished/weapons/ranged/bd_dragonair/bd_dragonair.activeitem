@@ -12,7 +12,7 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : [
-    { "image" : "BD_Dragonair.png:idle.1" }
+    { "image" : "BD_Dragonair.png" }
   ],
 
   "animation" : "BD_Dragonair.animation",

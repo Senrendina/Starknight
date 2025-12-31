@@ -12,7 +12,7 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : [
-    { "image" : "BD_HellHole.png:idle.1" }
+    { "image" : "BD_HellHole.png" }
   ],
 
   "animation" : "BD_HellHole.animation",

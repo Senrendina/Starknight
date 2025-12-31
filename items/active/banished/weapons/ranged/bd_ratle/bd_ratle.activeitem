@@ -12,7 +12,7 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : [
-    { "image" : "BD_Ratle.png:idle.1" }
+    { "image" : "BD_Ratle.png" }
   ],
 
   "animation" : "BD_Ratle.animation",
