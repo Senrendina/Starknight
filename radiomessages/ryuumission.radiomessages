@@ -1,4 +1,32 @@
 {
+ "Starknightmission1-1" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+      "text" : "Cannon ahead ! Take care !"
+ },
+ "Starknightmission1-2" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+      "text" : "Multiple soldier and cannon behind the door. Make sure you're prepared... They no way you can cover yourself."
+ },
+ "Starknightmission1-3" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
+      "text" : "That was a tough fight! I knew you could do it."
+ },
+"Starknightmission1-4" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+      "text" : "The satelitte is juste ahead. Go on and activate it."
+ },
   "StarknightKalTharIntro" : {
     "important" : true,
     "type" : "mission",

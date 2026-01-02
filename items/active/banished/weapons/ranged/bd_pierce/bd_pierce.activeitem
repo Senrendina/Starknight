@@ -63,7 +63,9 @@
 
     "projectileType" : "BD_Laser2",
     "projectileParameters" : {
-      "knockback" : 22
+      "knockback" : 0,
+      "speed" : 120,
+      "statusEffects" : [ "electrified" ]
     },
     "stances" : {
       "idle" : {

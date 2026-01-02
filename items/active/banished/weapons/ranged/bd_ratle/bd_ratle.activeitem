@@ -49,7 +49,7 @@
     "projectileType" : "BD_Laser",
     "projectileParameters" : {
       "knockback" : 0,
-      "speed" : 50,
+      "speed" : 120,
       "statusEffects" : [ "burning" ]
     },
 

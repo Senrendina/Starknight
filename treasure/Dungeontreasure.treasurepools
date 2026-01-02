@@ -7,8 +7,7 @@
 		{"pool" : "Starknight_Air_Ship_Item" }
       ]
     } ]
-  ],
-  
+  ], 
   "Starknight_Air_Ship_Item" : [
     [1, {
       "poolRounds" : [

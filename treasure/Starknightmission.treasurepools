@@ -42,6 +42,17 @@
 			}
 		]
 	],
+
+	"Starknight_Mission1Box1" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "healingjuice", 10 ] },
+					{ "item" : [ "nanowrap", 10 ] }
+				]
+			}
+		]
+	],
 	
 	"Starknight_Mission2Box3" : [
 		[1, 
