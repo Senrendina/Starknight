@@ -5,7 +5,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt3Gtq21AUhdGMxCPoE0oJTR\/zn0sGUcyhYMzZlWU1vlfqWrD\/XYio9EEkSF+fnp5ezczMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMxs2sFe6AMyfUCmD8j0AZk+INMHZPqATB+Q6QMyfUCmD8j0AZk+INMHZPqATB+Q6QMyfUCmD8j0AZk+INMHZPqATB+Q6QMyfUCmD8j0AZk+INMHZPqATB+Q6QMyfUCmD8j0AZk+INMHZPqAbEQfGmEv9AGZPiDTB2Sj+\/h+Wrfnlef\/xc4\/893CZr2uUdd2FPq47Wd+WNis1zXq2o5ij318e\/Bu7WPG6xp1bUcxuo97nokZn8NZr0sf2+y5j19vvHv7mOm6Rl3bUehDH\/rI9KEPfWT60Ic+stF9bPl+NdNzOOt16WMbfehDH9me+\/j8xru3j5mua9S1HcXoPra8f8z0HM56XfrYRh\/60EemD33oI9OHPvSR6UMf+shG9+H7lT5mpg996CPbYx+P\/lsfW7+jGN3HPe8fo++96WPWPniM96d1Oyp90NFH0Qed\/\/X3qWv6oKOPMrqPLffh\/K7+ZWHOLJ+5\/l3p48p7oo95+1j6Hu\/M8pmuj68rd1T6cKbrw++9ZXQfW+7D5f2\/\/ju27hlxpj+jj0wfzugj04cz3j8yfTjj+1V2lD7SnFk+o49sdB++X40\/o49s7328\/OXsy8mZW854\/8j04YzvV9noPra+f8z2rO3xjD4yfTijj0wfznj\/yPbWx\/PFvfhz\/3+EXT4jzuQz3b9xairtqPThjD6y0X2svQ\/60Mcj6cOZrg\/vH2Xvfcz2t3h7PNP14ftVGd0Hc9JH0QcdfRR90PF+XvRBRx9FH3T0UfRBRx9FH5Dpg47vV0UfdPRR9EFHH0UfdLyfF33Q0UfRBx19FH3Q0UfRBx19FH3Q8f2q6IOOPoo+6Oij6AMyfdDxfl70QUcfZVQfS\/+vhj121\/RRRvXx82Qz7Zo+ij6s68P3q6IP00emDzvv+v+l1EfRh3V9eP8oo\/r4dLKZpo+ePkwfmT5MH9moPszMzMzMzMzMzMzMzMzMzPa437F46Sg=",
+         "data":"eJzt3Gtq21AUhVH\/bAcRj6BPKCU0fcx\/LhlCC8UcCsGcXUW243vlrAX734WKSh+NBOnjbrd7NDMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzOzaQdboQ\/I9AGZPiDTB2T6gEwfkOkDMn1Apg\/I9AGZPiDTB2T6gEwfkOkDMn1Apg\/I9AGZPiDTB2T6gEwfkOkDMn1Apg\/I9AGZPiDTB2T6gEwfkOkDMn1Apg\/I9AGZPiDTB2T6gEwfkOkDshF9aISt0Adk+oBMH5CN7uP7ft3uV56\/xA5\/5ruFzXpdo67t991u92a\/vD93l50+xjyHHxY263WNujZ9jOvj25X33D5mvK5R16aPy\/RxyjMx43M463Xp4\/X28euFd2ofM13XqGvThz5GP4P60Ic+9KEPfehDH10f53y\/muk5nPW69KGPGZ7DWa9LH6+3j88vvFP7mOm6Rl2bPsa\/f8z0HM56XfrQxwzP4azXpQ99zPAcznpdp17b4Vm7Rh9vLzx9zPkcznpds\/\/7oQ996EMfp\/bh+5U+9KEPfejjWn1c+3d9bP30Me79Y\/S9N33M2gfX8X6\/brdKH3T0UfRBZ+3PU7dKH3T0UUb3cc59OLyrf1mYM8tnjn9W+rjynuhj3j6Wvsc7s3ym6+Pryt0qfTjT9eHn3jK6j3Puw9P7f\/x7bN0z4kx\/Rh+ZPpzRR6YPZ7x\/ZPpwxver7Fb6SHNm+Yw+stF9+H41\/ow+sq338fCfsw97Z55zxvtHpg9nfL\/KRvdx7vvHbM\/aFs\/oI9OHM\/rI9OGM949sa33cP7kX\/+7\/j7Cnz4gz+Uz3d5yaSrtV+nBGH9noPtbeB33o45r04UzXh\/ePsvU+ZvtdvC2e6frw\/aqM7oM56aPog44+ij7oeD8v+qCjj6IPOvoo+qCjj6IPyPRBx\/erog86+ij6oKOPog863s+LPujoo+iDjj6KPujoo+iDjj6KPuj4flX0QUcfRR909FH0AZk+6Hg\/L\/qgo48yqo+l\/1fDrrtj+iij+vi5t5l2TB9FH9b14ftV0YfpI9OHHXb8\/1Lqo+jDuj68f5RRfXza20zTR08fpo9MH6aPbFQfZmZmZmZmZmZmZmZmZmZmW9xfdXROeQ==",
          "encoding":"base64",
          "height":150,
          "id":1,
@@ -19,7 +19,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztnItO3DAQRfmSfkFfUGhhC\/z\/Z7VRNtIq8mxsZya5ts+RRmp53B1sH7JOSB6\/PDx8OtUjWWR1ltV6\/2SRFZnVev9kkRWZNX3dd6cii6zeslr3myyyIrNa758ssiKzWu+fLLIis1rvnyyyIrNa758ssiKzWu+fLLIis1rvnyyyIrNa758ssiKzWu+fLLIis1q\/vkkWWZFZrftNFlmRWa33TxZZkVmt908WWZFZrfdPFlmRWa33TxZZkVmt908WWZFZrfdPFlmRWa33TxZZkVmPFEXdLU8nAXoCPwBs8APABj8AbPADwAY\/AGzwA8AGPwBs8APAZlrTnvcsAvQExw8AG\/wAsMEPABv8ALDBDwAb\/ACwwQ8AG\/wAsMEPABuunwPYcPwAsMEPABv8ALDBDwAb\/ACwwQ8Am0g\/vHJzqgTVvtR7G5Ho44fqfKv2pd7baHg\/yzfFMhfvgbXHEbW+1HsbiaP2H\/e+T8ERtb7UexuFI\/fnqvOt2pd6byOgcP5Kdb5V+1LvrScU\/JhQnW\/VvtR76wUVPyZU51u1L\/XeekDJjwnV+VbtS7231lHzY0J1vlX7Uu+tZRT9mFCdb9W+1HtrFVU\/JlTnW7Uv9d5aRP3+WtX5Vu1LvbfWUD5+LKjOt2pf6r21hLcfP65Veux5+V9fD67pNS8bpdrXWb2NBn7orUH80AE\/9NYgfuiAH3prED908Pbj3n0gJSyeLQXHwvjP4AekYPxn8ANSMP4z+AEpGP8Z7+vnXuOZc187xMH4z0Sdv\/Loi\/k5D8Z\/Bj8gBeM\/gx+QgvGfYX8OKRj\/GfyAFIz\/DH5ACsZ\/Bj8gBeM\/w\/4cUjD+M3ufR70u\/OgDxn+G4wekYPxnVP0AUEB1fw6gAH4A2OAHgA1+ANhE7c\/fCmt9PerpgPK676Xn2jMvPaBy\/mo9D3+Dy+tn7r1Gv44+oh9nr7mWCj807q89yo+z11trhR9+Y7lnf871Wl+W50p\/XGv5fymjz0uUH6X789HnwRv88IHjR5\/ghw\/40Sf44YPq+SvYh5cfo88LfvQJfviAH32CHz6o\/n0J7AM\/fGB\/3ifsz33wvn6OHxpYzwfYmzMaHD\/6BD98wI8+wQ8fOH\/VJ15+jD4vnL\/qE\/zwQeX9FWiCH\/gBNviBH2DD\/hw\/wAY\/fGvU43Cv4Ifv8eP5Wr8oqVrmhfs6y\/D2I\/q5PFR5XW7+XQr7c18\/PoPm+JPs6mz8qCfCD+\/1sH4dssuy8aOeKD+81oP1WmTnZ+NHPZF+7F0PW69Hdl72Hj\/Yn8f6Ubsecl+T7O3sWz84f1XGEX6UrofS1yX7fjbHj3qO8iN3PdS+Ntl2Nn7UM\/3MnvfXernWYl3u1Nk91PrB\/txvbqasb5Rk4Ucd+DFG4UcdUX6sP\/d68sfOXp9nV+35K\/zAjxGK\/Xkd+DFG4Ucd+DFG4Ucd+DFG4Ucd+DFGcf6qDs7vjlGcv6rD+\/r52euAuu9HKfjhe\/x4yqznzPLOO\/s+8LOrFPzw9ePMn2PkfaTF3nEZfVy9\/XhZ1e9rrT\/+J7Ny81Lz+DbgfK7Bj314+1G6\/\/Oq9Tzixgx+7IP3V32T+r3B\/YP59OIHxMD+HD\/ABj\/wA2zww7egL\/CD4wfYjP77b\/Tr5+uc3j6\/Xt9b47H+PH74+pHzt0DLMzXeN2r5Os+\/Q7r3jBGPSj2b7cxa97M15uvCD\/zAD\/ywiL7\/4\/aeDMuP9Rq2\/Ehl5n4s180c7rls+fHz4NryY+v7l69jfz6mH5YjOVhu4Ed\/RPnxeq3Lzb\/3+pHKzP2Y9f5qrx+576\/wo01GPX58JNb2JXP+199zm4UffTGyH57Vqx\/sz4+\/v3Zrj8z5q7h+OH9VBud38QM\/bP4ByVF2hQ==",
+         "data":"eJztnN1u20YQRn2RPkbyBP2J0yRN1MTv\/0bNTYGWiAhItEZaLmfIb2fOAQZIZOvTeHePqSVNPb97enpxqmeyyEqWNXr\/ZJEVmTV6\/2SRFZk1fd\/vTkUWWdmyRvebLLIis0bvnyyyIrNG758ssiKzRu+fLLIis0bvnyyyIrNG758ssiKzRu+fLLIis0bvnyyyIrNG758ssiKzRr++SRZZkVmj+00WWZFZo\/dPFlmRWaP3TxZZkVmj908WWZFZo\/dPFlmRWaP3TxZZkVmj908WWZFZo\/dPFlmRWc8URd0tTycBMoEfADb4AWCDHwA2+AFggx8ANvgBYIMfADb4AWAzrWnPexYBMsHxA8AGPwBs8APABj8AbPADwAY\/AGzwA8AGPwBs8APAhuvnADYcPwBs8APABj8AbPADwAY\/AGzwA8Am0g+v3JZag2pf6r1VJPr4oTrfqn2p91YN78\/yvcU8F98Ca4sjan2p91aJvfYf956n4IhaX+q9VWHP\/bnqfKv2pd5bBRTOX6nOt2pf6r1lQsGPCdX5Vu1LvbcsqPgxoTrfqn2p95YBJT8mVOdbtS\/13kZHzY8J1flW7Uu9t5FR9GNCdb5V+1LvbVRU\/ZhQnW\/VvtR7GxH1+2tV51u1L\/XeRkP5+DGjOt+qfan3NhLefvxxrrXHnk\/\/16871\/Sapwel2tdRvf14+\/T07wH141z4obUOVfvCD\/xQWIeqfeEHfiisQ9W+8GNMP+7dB7KG2bO5YF\/Uxv+Xdz9rb\/ADbqE2\/vhxjdr8VENt\/PHjGrX5qYba+B\/ph+f1c6\/xbLmvHeJQG\/8sxw\/8yIHa+OPH676U5qcaauOPH6\/7UpqfaqiNfxY\/2J\/nQG388eMatfmphtr448c1avNTDbXxx49r1OanGmrjn8UP9uc5UBv\/I\/3wLPzIgdr4c\/x43ZfS\/FRDbfzxA8Amix8qv28gF\/gBYIMfADb4AWCTxY95f\/51ZS2vR33Yobzue8lcy3l501n\/vLWr5flZPp+h9\/zVch7+Di6vnzl7qV1H35uKfhy95kYq\/NC4v3YvP45eb6MVfviN5Zb9udr12tGZP1f6+7nm\/6+l+rxE+bF2f159HrzBDx84fuQEP3zAj5zghw+q569gG15+VJ8X\/MgJfviAHznBDx9U\/74EtoEfPrA\/zwn7cx+8r5\/jhwbW5wNszakGx4+c4IcP+JET\/PCB81c58fKj+rxw\/ion+OGDyvsr0AQ\/8ANs8AM\/wIb9OX6ADX74VtXjcFbww\/f48fFcf1JSNc8L93Wuw9uP6M\/lodbX6eLfa2F\/7uvHS9Acv5DdnY0f\/UT44b0elq9D9rps\/Ognyg+v9WC9Ftnt2fjRT6QfW9fDo9cjuy17ix\/sz2P96F0Pra9J9uPsSz84f7WOPfxYux7Wvi7Z97M5fvSzlx+t66H3tcm2s\/Gjn+ln9ry\/1su1Eet0p47uodcP9ud+czNl\/UZJFn70gR81Cj\/6iPJj+bUvBz929Po8unrPX+EHflQo9ud94EeNwo8+8KNG4Ucf+FGj8KMP\/KhRnL\/qg\/O7NYrzV314Xz8\/eh1Q9\/1YC374Hj8+NNbHxvLOO\/o+8KNrLfjh68eRP0flfaTF1nGpPq7efnxa1OdzLR\/\/q7Fa827N49eC87kEP7bh7cfa\/Z9XLecRN36CH9vg\/VVubv3e4P7BdrL4ATGwP8cPsMEP\/AAb\/PAtyAV+cPwAm+q\/\/6pfP1\/mZPv6cn0\/Go\/l1\/HD14+WvwWaP1Pj24Oav8\/z75DufcaIR936bLYja9nPozFfFn7gB37gh0X0\/R+X92RYfizXsOXHrczWx1rdbOGey5Yf73euR348ev78fezPa\/phOdKC5QZ+5CPKjy\/nOl38e6sftzJbH7PeX231o\/X9FX6MSdXjx\/cba\/vUOP\/L51xm4UcuKvvhWVn9YH++\/\/21j\/bInL+K64fzV+vg\/C5+4IfNf+40EiQ=",
          "encoding":"base64",
          "height":150,
          "id":2,
@@ -1140,6 +1140,38 @@
                  "width":96,
                  "x":1104,
                  "y":632
+                }, 
+                {
+                 "gid":2147491350,
+                 "height":40,
+                 "id":835,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"uniqueId\" : \"starknight_goalMission2\" }"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":1240,
+                 "y":696
+                }, 
+                {
+                 "gid":7713,
+                 "height":16,
+                 "id":837,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1288,
+                 "y":696
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1237,7 +1269,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":835,
+ "nextobjectid":838,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
