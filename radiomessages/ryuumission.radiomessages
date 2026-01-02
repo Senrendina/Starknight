@@ -11,7 +11,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-      "text" : "Multiple soldier and cannon behind the door. Make sure you're prepared... They no way you can cover yourself."
+      "text" : "Multiple soldier and cannon behind the door. Make sure you're prepared... There's no way to cover yourself in there."
  },
  "Starknightmission1-3" : {
     "important" : true,
@@ -25,7 +25,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-      "text" : "The satelitte is juste ahead. Go on and activate it."
+      "text" : "The satelitte is just ahead. Go on and activate it."
  },
   "StarknightKalTharIntro" : {
     "important" : true,
@@ -39,7 +39,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "I see that you have reached the outpost. We need you to go check on the satellite and see why it's not functional anymore. Ryoko out."
+    "text" : "I see that you have reached the satellite. We need you to go check the transceiver to see why it's not broadcasting anymore. Ryoko out."
   },
   "starknight_Satelliterepaired" : {
     "important" : true,
