@@ -41,34 +41,6 @@
     "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
     "text" : "I see that you have reached the satellite. We need you to go check the transceiver to see why it's not broadcasting anymore. Ryoko out."
   },
-  "starknight_Satelliterepaired" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "hey ! You did it. Alright, you can come back now."
-  },
-  "StarknightBanishedPlatform" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "This Platform is of Banished origin, what is it doing here?"
-  },
-  "StarknightBanishedPlatform2" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "Keep up your guard, I have a bad feeling about this..."	
-  },  
-  "StarknightExplaination" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "Well... No wonder our satellite has been shut down. Go have fun and get rid of them."
-  },  
   "StarknightExplaination2" : {
     "important" : true,
     "type" : "mission",
@@ -90,47 +62,12 @@
     "portraitImage" : "/interface/chatbubbles/Kal'TharSad.png:<frame>",	
     "text" : "I don't know the exact detail. Only high ranking know what happened."	
   },
-  "StarknightStrange" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "Hmmm ? I think i saw something strange a second ago..."
-  },
-  "StarknightSmirk" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "Ah ! I was right about that. They may have made that to help us if we got problem."
-  },
-  "StarknightFamiliar" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "Finally a open space."		
-  },
   "StarknightAdvice" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
     "text" : "Take the things inside of that locker, you'll need it."
-  },
-  "StarknightRemembering" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "Oh i remember that part. The satellite is nearby."		
-  },
-  "StarknightHard" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "Well, that was a hard fight. Onto more pressing matters, why do they want to shut down that satellite?"			
   },
   "Starknightmission3-1" : {
     "important" : true,
@@ -144,7 +81,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "This is my first time seeing this kind of structure. Are those...traps? Why?!"			
+    "text" : "I see they made some puzzle. Go ahead and try to the border right."			
   },
   "Starknightmission3-3" : {
     "important" : true,
