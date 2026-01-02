@@ -80,8 +80,8 @@
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "I see they made some puzzle. Go ahead and try to the border right."			
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "I see they made some puzzle. Go ahead and try to reach the border right."			
   },
   "Starknightmission3-3" : {
     "important" : true,
