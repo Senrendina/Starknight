@@ -109,14 +109,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "On to more pressing matters: Why is that strange signal coming from this facility?"			
-  },
-  "Starknightmission3-7" : {
-    "important" : true,
-    "type" : "mission",
-    "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "Anyways, I've finished gathering data, there's a point of interest to your northeast."			
+    "text" : "On to more pressing matters: Why is that strange signal coming from this facility?"					
   },
   "Starknightmission3-8" : {
     "important" : true,
@@ -143,8 +136,8 @@
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "This container seems to be in a strange location. Better check it out."			
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+    "text" : "Door Puzzle ? No... I let you figure it out yourself... Good luck!"			
   },
   "Starknightmission3-12" : {
     "important" : true,

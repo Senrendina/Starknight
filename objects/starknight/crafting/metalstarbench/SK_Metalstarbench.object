@@ -1,0 +1,57 @@
+{
+  "objectName" : "metalstarbench",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/metalstarbench.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  StarKnight Workbench",
+        "subtitle" : " Crafting...",
+        "icon" : {
+          "file" : "/objects/starknight/crafting/metalstarbench/metalstarbenchicon.png"
+        }
+      }
+    },
+    "filter" : [ "metalstarbench" ]
+  },
+  "printable" : false,
+  "description" : "This crafting station is where you can craft starknight Furniture",
+  "shortdescription" : "StarKnight Workbench",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+   
+  "inventoryIcon" : "metalstarbenchicon.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "SK_Metalstarbench.png:<color>.<frame>"}, { "image" : "SK_Metalstarbenchlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "SK_Metalstarbench.png:<color>.<frame>"}, { "image" : "SK_Metalstarbenchlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}
