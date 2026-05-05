@@ -46,7 +46,7 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "Ah yeah i see that you want some explaination."
+    "text" : "Ah yeah, i see that you want some explaination."
   },  
   "StarknightExplaination3" : {
     "important" : true,
