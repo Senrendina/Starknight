@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "category" : "legarmour",
-  "description" : "The Sentinel Armor legs",
-  "shortdescription" : "The Sentinel Leggings",
+  "description" : "The Crusader Armor legs",
+  "shortdescription" : "The Crusader Leggings",
   "tooltipKind" : "SK_Armor",
 
   "maleFrames" : "pants.png",

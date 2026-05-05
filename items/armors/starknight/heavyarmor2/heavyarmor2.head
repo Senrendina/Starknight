@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "category" : "headarmour",
-  "description" : "The Sentinel Armor Helmet",
-  "shortdescription" : "Sentinel Helmet",
+  "description" : "The Crusader Armor Helmet",
+  "shortdescription" : "Crusader Helmet",
   "tooltipKind" : "SK_Armor",
 
   "maleFrames" : "head.png",

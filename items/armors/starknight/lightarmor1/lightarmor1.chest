@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "legendary",
   "category" : "chestarmour",
-  "description" : "The Crusade armor",
-  "shortdescription" : "The Crusade armor",
+  "description" : "The Sentinel armor",
+  "shortdescription" : "The Sentinel armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
