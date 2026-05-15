@@ -1883,6 +1883,27 @@
                  "width":16,
                  "x":3000,
                  "y":1016
+                }, 
+                {
+                 "height":80,
+                 "id":2137,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"radioMessages\" : [\"StarknightWelcome01b\", \"StarknightWelcome01a\", \"StarknightWelcome01\"] }",
+                     "stagehand":"radiomessage"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":152,
+                 "x":1608,
+                 "y":1040
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1972,7 +1993,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2136,
+ "nextobjectid":2138,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",

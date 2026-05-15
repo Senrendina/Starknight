@@ -166,6 +166,27 @@
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
     "text" : "Whatever. I don't think we can learn anything else here. Activate that console and head on back with the teleporter upstairs. We'll look more into this on our end. Thanks for your hard work."		
+  },
+ "StarknightWelcome01" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+      "text" : "Wait... Who are you? How you find our base?"
+  },
+ "StarknightWelcome01a" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
+      "text" : "Nevermind that, come here so we can speak."	  
+  },
+ "StarknightWelcome01b" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Toka",
+    "portraitImage" : "/interface/chatbubbles/Toka.png:<frame>",	
+      "text" : "Teleportation confirmed. Signal entry received through one of our ships in Eldora."
   }		
 }  
 

@@ -1,13 +1,13 @@
 {
-  "itemName" : "SK_Lightarmorchest1",
+  "itemName" : "SK_Heavyarmorchest",
   "price" : 800,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Essential",
   "category" : "chestarmour",
-  "description" : "The Sentinel armor",
-  "shortdescription" : "The Sentinel armor",
-  "tooltipKind" : "armor",
+  "description" : "The Bastion armor give a good amount of health but slow you down (accept augment)",
+  "shortdescription" : "The Bastion armor",
+  "tooltipKind" : "SK_Armor",
 
   "maleFrames" : {
     "body" : "chestf.png",
@@ -21,7 +21,7 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "level" : 5,
+  "level" : 7,
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
@@ -29,17 +29,20 @@
     },
     {
       "stat" : "protection",
-      "amount" : 20
+      "amount" : 60
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 100
     },
     {
       "stat" : "maxHealth",
-      "amount" : 100
-    }
-  ],
-  "acceptsAugmentType" : "back",
-  "itemTags" : [ "tier5armour" ]
+      "amount" : 200
+        },
+        "heavyArmor"
+    ],
+    "acceptsAugmentType": "back",
+    "itemTags": [
+        "tier7armour"
+    ]
 }

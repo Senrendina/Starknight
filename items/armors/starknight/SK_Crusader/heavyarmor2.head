@@ -1,18 +1,19 @@
 {
-  "itemName" : "SK_Heavyarmorlegs2",
-  "price" : 320,
-  "inventoryIcon" : "icons.png:pants",
+  "itemName" : "SK_Heavyarmorhead2",
+  "price" : 480,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "legendary",
-  "category" : "legarmour",
-  "description" : "The Crusader Armor legs",
-  "shortdescription" : "The Crusader Leggings",
+  "category" : "headarmour",
+  "description" : "The Crusader Armor Helmet",
+  "shortdescription" : "Crusader Helmet",
   "tooltipKind" : "SK_Armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
-  "level" : 5,
+  "level" : 6,
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
@@ -24,11 +25,11 @@
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 50
+      "amount" : 100
     },
     {
       "stat" : "maxHealth",
-      "amount" : 75
+      "amount" : 50
     }
   ],
   "acceptsAugmentType" : "back",

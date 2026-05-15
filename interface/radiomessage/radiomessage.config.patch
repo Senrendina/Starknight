@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/paneLayout/background/fileBody",
+    "value": "/interface/radiomessage/SKbackground.png"
+  },
+  {
+    "op": "replace",
+    "path": "/backgroundImage",
+    "value": "/interface/radiomessage/SKbackground.png"
+  },
+  {
+    "op": "replace",
+    "path": "/animateInImage",
+    "value": "/interface/radiomessage/SKblinkin.png"
+  },
+  {
+    "op": "replace",
+    "path": "/animateOutImage",
+    "value": "/interface/radiomessage/SKblinkout.png"
+  }
+]

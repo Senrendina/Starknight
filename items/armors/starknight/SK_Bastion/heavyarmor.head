@@ -1,27 +1,27 @@
 {
-  "itemName" : "SK_Heavyarmorhead2",
+  "itemName" : "SK_Heavyarmorhead",
   "price" : 480,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Essential",
   "category" : "headarmour",
-  "description" : "The Crusader Armor Helmet",
-  "shortdescription" : "Crusader Helmet",
+  "description" : "The Bastion Armor Helmet give a good amount of health but slow you down (accept augment)",
+  "shortdescription" : "Bastion Helmet",
   "tooltipKind" : "SK_Armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "level" : 6,
+  "level" : 7,
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1
+      "baseMultiplier" : 2
     },
     {
       "stat" : "protection",
-      "amount" : 20
+      "amount" : 15
     },
     {
       "stat" : "maxEnergy",
@@ -29,9 +29,12 @@
     },
     {
       "stat" : "maxHealth",
-      "amount" : 50
-    }
-  ],
-  "acceptsAugmentType" : "back",
-  "itemTags" : [ "tier6armour" ]
+      "amount" : 75
+        },
+        "heavyArmor"
+    ],
+    "acceptsAugmentType": "back",
+    "itemTags": [
+        "tier7armour"
+    ]
 }
