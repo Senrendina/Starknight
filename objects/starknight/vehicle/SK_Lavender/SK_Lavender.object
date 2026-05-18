@@ -1,0 +1,43 @@
+{
+  "objectName": "SK_Lavender",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "A truck to transport troup around the planet. Out of fuel though...",
+  "shortdescription": "Starknight Ravager",
+  "race": "generic",
+  "category": "decorative",
+  "price": 220,
+  "apexDescription": "A Transport truck",
+  "avianDescription": "A Transport truck.",
+  "floranDescription": "Floran dilikess Truck.",
+  "glitchDescription": "Indifferent. A Transport truck.",
+  "humanDescription": "A Transport truck.",
+  "hylotlDescription": "An unattractive Truck.",
+  "novakidDescription": "Just a Transport truck.",
+  "inventoryIcon": "SK_Lavender.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_Lavender.png"}, { "image" : "SK_Lavenderlit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_Lavender.png"}, { "image" : "SK_Lavenderlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}
