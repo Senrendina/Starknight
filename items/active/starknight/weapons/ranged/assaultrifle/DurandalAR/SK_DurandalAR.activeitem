@@ -1,0 +1,189 @@
+{
+  "itemName" : "SK_DurandalAR",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "",
+  "shortdescription" : "^cyan;SK^reset; Durandal AR",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 6,
+
+  "inventoryIcon" : "SK_DurandalAR.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "SK_DurandalAR.png",
+    "barrel" : "SK_DurandalARlit.png",
+    "muzzleFlash" : "/items/active/starknight/weapons/ranged/sk_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : { 
+	"glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [0, 89, 89]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_ar4.ogg" ],
+	  "altFire" : [ "/sfx/gun/grenade2.ogg" ]
+    },
+	"animatedParts" : { 
+	"parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [-0.75, -0.375],
+          "transformationGroups" : ["muzzle"],
+          "firePosition" : [0.75, -0.375],
+          "image" : ""
+        }
+      },
+	  "barrel" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+		  "fullbright": true,
+		  "zLevel" : 2,
+          "offset" : [0.4, 0.15],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+	  "muzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.75, -0.3],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }},
+	"particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [-0.25, -1.25, -0.25, -1.25],
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.4, 0.15],
+  "muzzleOffset" : [1.9, 0.75],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.16,
+    "baseDps" : 10.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.04,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+	"burstCount":4,
+	"burstTime":0.09,
+
+    "projectileType" : "sk_plasmapea",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  
+  "altAbility" : {
+    "name" : "Grenade Launcher",
+    "type" : "grenadelauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+	"elementalConfig" : {
+      "physical" : { "projectileType" : "sk_javelin1" }
+    },
+    "projectileParameters" : {},
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 9,
+    "energyUsage" : 25,
+    "fireTime" : 2.0,
+    "fireType" : "auto",
+
+    "firePositionPart" : "grenadelauncher",
+    "hidePrimaryMuzzleFlash" : true,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.3,
+        "armRotation" : 7,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

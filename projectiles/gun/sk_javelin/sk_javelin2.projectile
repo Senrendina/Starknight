@@ -1,0 +1,79 @@
+{
+  "projectileName" : "sk_javelin2",
+  "image" : "sk_javelin.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 1,
+  "lightColor" : [10, 90, 90],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosion/sk_explosion/sk_explosion_knockback.config"
+    }
+  ],
+  "periodicActions" : [{
+                  "rotate" : true,
+                  "time" : 0.01,
+                  "specification" : {
+				  "image" : "/projectiles/gun/sk_javelin/trail.png",
+                    "layer" : "back",
+                    "timeToLive" : 0.1,
+                    "destructionAction" : "shrink",
+                    "fullbright" : true,
+                    "type" : "textured",
+					"light" : [10, 180, 180],
+                    "destructionTime" : 0.2,
+                    "position" : [-0.5, 0],
+                    "size" : 1
+                  },
+                  "repeat" : true,
+                  "action" : "particle"
+                },
+				{
+      "action" : "loop",
+	  "time" : 0,
+	  "repeat" : false,
+      "count" : 8,
+      "body" : [
+            {
+              "action" : "particle",
+              "specification" : {
+    "type" : "animated",
+    "animation" : "/animations/dust2/dust2.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [4, 0],
+    "finalVelocity" : [0, 4],
+    "approach" : [7, 7],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.85,
+    "fade" : 1,
+    "size" : 1,
+    "layer" : "front",
+    "timeToLive" : 0.45,
+    "variance" : {
+      "initialVelocity" : [3.0, 2.0],
+	  "position" : [0.6, 0.6],
+      "rotation" : 180
+    }
+  }
+            }
+      ]
+    }],
+  "statusEffects" : [ ],
+  "emitters" : [ "rocketsmoke" ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 30.0,
+  "acceleration" : 50,
+  "timeToLive" : 1.5,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "scripts" : [ "/scripts/projectiles/homingprojectile.lua" ],
+  "scriptDelta" : 3,
+  "homingDistance": 25,
+
+  "rotationRate" : 3,
+  "trackingLimit" : 2.0
+}
