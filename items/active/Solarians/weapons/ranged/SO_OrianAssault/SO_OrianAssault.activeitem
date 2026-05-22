@@ -87,7 +87,5 @@
       }
     }
   },
-  
-  "altAbilityType" : "grenadelauncher",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
