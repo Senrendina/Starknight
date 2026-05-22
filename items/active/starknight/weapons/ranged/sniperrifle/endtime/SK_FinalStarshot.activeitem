@@ -1,22 +1,22 @@
 {
-  "itemName" : "starknight_endtime",
+  "itemName" : "SK_FinalStarshot",
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "endtime",
-  "shortdescription" : "Endtime",
+  "description" : "FinalStarshot",
+  "shortdescription" : "FinalStarshot",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 3,
 
-  "inventoryIcon" : "endtime.png",
+  "inventoryIcon" : "SK_FinalStarshot.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "endtime.png",
+    "middle" : "SK_FinalStarshot.png",
 	"middlefullbright" : "fullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/starknight/weapons/ranged/SK_muzzleflash.png"

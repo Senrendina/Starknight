@@ -1,10 +1,10 @@
 {
-  "itemName" : "starknight_overammo",
+  "itemName" : "SK_Starburst",
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "",
-  "shortdescription" : "Overammo",
+  "shortdescription" : "Starburst",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
@@ -12,14 +12,14 @@
   "level" : 4,
 
   "inventoryIcon" : [
-    { "image" : "starknight_overammo.png:idle.1" }
+    { "image" : "SK_Starburst.png:idle.1" }
   ],
 
-  "animation" : "starknight_overammo.animation",
+  "animation" : "SK_Starburst.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "starknight_overammo.png",
-    "middlefullbright" : "starknight_overammolit.png",
+    "middle" : "SK_Starburst.png",
+    "middlefullbright" : "SK_Starburstlit.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/starknight/weapons/ranged/sk_muzzleflash.png"
   },

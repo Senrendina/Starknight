@@ -9,9 +9,9 @@
 //DAGGER
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_deathstar" } },
 //ASSAULT RIFLE
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_overammo" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_Starburst" } },
 //SNIPER RIFLE
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_endtime" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "SK_FinalStarshot" } },
 //SHOTGUN
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_deathshot" } },
 //PISTOL
