@@ -5,5 +5,5 @@
   ],
   "duration" : 0.5,
   "output" : { "item" : "SK_Lightarmorhead1", "count" : 1 },
-  "groups" : [ "metalstartable", "weapon", "all" ]
+  "groups" : [ "metalstartable", "ArmorS", "all" ]
 }

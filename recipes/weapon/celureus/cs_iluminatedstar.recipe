@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "CS_IluminatedStar", "count" : 1},
   "duration" : 0.5,
-  "groups" : [ "metalstartable", "weapon", "all" ]
+  "groups" : [ "metalstartable", "meleeC", "all" ]
 }

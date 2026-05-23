@@ -10,7 +10,7 @@
         "title" : "  StarKnight Crafting Station",
         "subtitle" : " Crafting...",
         "icon" : {
-          "file" : "/objects/starknight/crafting/metalstartable/metalstartableicon.png"
+          "file" : "/objects/starknight/crafting/metalstartable/metalstartableicon2.png"
         }
       }
     },
@@ -23,7 +23,7 @@
   "category" : "crafting",
   "price" : 30,
    
-  "inventoryIcon" : "metalstartable.png",
+  "inventoryIcon" : "metalstartableicon.png",
     "orientations" : [
     {
        "imageLayers" : [ { "image" : "metalstartable.png"}, { "image" : "metalstartablelit.png", "fullbright" : true  }  ],

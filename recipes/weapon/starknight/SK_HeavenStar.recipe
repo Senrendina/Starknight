@@ -8,5 +8,5 @@
   ],
   "output" : { "item" : "SK_HeavenStar", "count" : 1},
   "duration" : 0.5,
-  "groups" : [ "metalstartable", "weapon", "all" ]
+  "groups" : [ "metalstartable", "WeaponS", "all" ]
 }

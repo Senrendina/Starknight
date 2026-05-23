@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "SK_DragonClash", "count" : 1},
   "duration" : 0.5,
-  "groups" : [ "metalstartable", "weapon", "all" ]
+  "groups" : [ "metalstartable", "MeleeS", "all" ]
 }

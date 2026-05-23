@@ -11,5 +11,5 @@
   "item" : "Starknight_StarSword",  
   "count" : 1},
   "duration" : 0.5,
-  "groups" : [ "metalstartable", "weapon", "all" ]
+  "groups" : [ "metalstartable", "MeleeS", "all" ]
 }
