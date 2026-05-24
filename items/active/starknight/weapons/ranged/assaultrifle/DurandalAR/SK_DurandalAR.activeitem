@@ -99,13 +99,13 @@
     "class" : "GunFire",
 
     "fireTime" : 0.16,
-    "baseDps" : 10.5,
+    "baseDps" : 8,
     "energyUsage" : 25,
     "inaccuracy" : 0.04,
 
     "projectileCount" : 1,
     "fireType" : "burst",
-	"burstCount":3,
+	"burstCount":5,
 	"burstTime":0.09,
 
     "projectileType" : "sk_plasmapea",

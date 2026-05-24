@@ -3,7 +3,7 @@
   "image" : "sk_plasmapea.png",
   "animationCycle" : 0.08,
   "damageKindImage" : "icon.png",
-  "frameNumber" : 4,
+  "frameNumber" : 1,
   "power" : 50,
   "speed" : 80,
   "lightColor" : [0, 255, 255],
