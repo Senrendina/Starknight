@@ -5,7 +5,8 @@
   "rarity" : "Uncommon",
   "description" : "FinalStarshot",
   "shortdescription" : "FinalStarshot",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "SK_gunnoelement",
+  
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
@@ -33,13 +34,42 @@
 						"transformationGroups": ["weapon"],
 						"fullbright": true
 					}
-				}	
+				},"lance" : {
+          "properties" : {
+            "zLevel" : 3,
+            "centered" : true,
+            "fullbright" : true,
+            "offset" : [2.5, 0.4],
+            "transformationGroups" : ["muzzle"],
+            "damageArea" : [ [-3.0, 0], [-2.0, 0.5], [2.5, 0.0], [-2.0, -0.5] ]
+          },
+          "partStates" : {
+            "lance" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/ranged/abilities/lance/SK_laserlance.png:<frame>"
+                }
+              }
+            }
+          }
+        }	
 			}
 		},
 		
     "sounds" : {
-      "fire" : ["/sfx/gun/rifle1.ogg"]
-    }
+      "fire" : ["/sfx/gun/plasma_sniper3.ogg"]
+    },
+	"lights" : {
+      "fireflash" : {
+        "active" : false,
+        "position" : [3.0, 0.0],
+        "color" : [30, 240, 240]
+      }}
   },
 
   "baseOffset" : [0.6, 0.3],
@@ -47,7 +77,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -61,7 +91,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "standardbullet",
+    "projectileType" : "sk_sniperlaser",
     "projectileParameters" : {
       "knockback" : 22
     },
@@ -95,7 +125,17 @@
     }
   },
 
-  "altAbilityType" : "explosiveshot",
+  "altAbilityType" : "lance",
+  
+   "altAbility" : {
+   "damageConfig" : {
+      "damageSourceKind" : "plasma",
+      "baseDamage" : 10,
+      "knockback" : 40,
+      "timeoutGroup" : "alt",
+      "timeout" : 0.5
+    }
+   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

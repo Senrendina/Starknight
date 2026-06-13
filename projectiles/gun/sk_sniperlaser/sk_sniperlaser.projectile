@@ -1,0 +1,82 @@
+{
+  "projectileName" : "sk_sniperlaser",
+  "image" : "sk_sniperlaser.png",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 25,
+  "speed" : 140,
+  "lightColor" : [0, 255, 255],
+  "bounces" : 0,
+  "fullbright" : true,
+  "piercing" : false,
+  "damagePoly" : [ [-15, 3], [-15, -3], [15, -3], [15, 3] ],
+  "damageKind" : "fire",
+  "periodicActions" : [{
+                  "rotate" : true,
+                  "time" : 0.01,
+                  "specification" : {
+				  "image" : "/projectiles/gun/sk_sniperlaser/sk_sniperlaser.png",
+                    "layer" : "back",
+                    "timeToLive" : 0,
+                    "destructionAction" : "shrink",
+                    "fullbright" : true,
+                    "type" : "textured",
+					"light" : [10, 180, 180],
+                    "destructionTime" : 0.08,
+                    "position" : [-0.5, 0],
+                    "size" : 1
+                  },
+                  "repeat" : true,
+                  "action" : "particle"
+                },{
+                  "rotate" : true,
+                  "time" : 0.01,
+                  "repeat" : true,
+                  "specification" : {
+                    "fade" : 0.9,
+                    "initialVelocity" : [0, 0],
+                    "approach" : [0, 0],
+                    "layer" : "back",
+                    "destructionAction" : "shrink",
+                    "fullbright" : true,
+                    "variance" : {
+                      "initialVelocity" : [1, 1],
+                      "position" : [0.25, 0.25],
+                      "timeToLive" : 0.2,
+                      "size" : 0.4
+                    },
+                    "type" : "ember",
+                    "destructionTime" : 0.2,
+                    "color" : [99, 216, 232, 255],
+                    "size" : 1.8,
+                    "finalVelocity" : [0, -50],
+                    "timeToLive" : 0.8,
+                    "light" : [50, 140, 160]
+                  },
+                  "action" : "particle"
+                },{
+                  "rotate" : true,
+                  "time" : 0.01,
+                  "specification" : {
+				  "image" : "/projectiles/gun/sk_sniperlaser/sk_sniperlaser.png",
+                    "layer" : "back",
+                    "timeToLive" : 0,
+                    "destructionAction" : "shrink",
+                    "fullbright" : true,
+                    "type" : "textured",
+					"light" : [10, 180, 180],
+                    "destructionTime" : 0.08,
+                    "position" : [0.5, 0],
+                    "size" : 1
+                  },
+                  "repeat" : true,
+                  "action" : "particle"
+                }],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosion/SK_Explosion/SK_Explosion.config"
+    }
+  ]
+}
