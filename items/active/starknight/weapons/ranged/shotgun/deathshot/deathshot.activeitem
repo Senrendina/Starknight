@@ -1,5 +1,5 @@
 {
-	"itemName": "SK_DeathShot",
+  "itemName": "SK_DeathShot",
   "price" : 840,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -19,7 +19,7 @@
 		"middle": "deathshot.png",
 		"middlefullbright": "deathshotlit.png",
 		"barrel" : "",
-		"muzzleFlash" : "/items/active/starknight/weapons/ranged/sk_muzzleflash.png"
+		"muzzleFlash" : ""
 	},
  "animationCustom" : {
     "sounds" : {
@@ -81,7 +81,9 @@
     }
   },
 
-  "altAbilityType" : "burstshot",
+  "altAbilityType" : "SK_BurstRifle",
+  "altAbility" : {
+  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -46,5 +46,11 @@
 		"op" : "add",
 		"path" : "/sk_spearcharge",
 		"value": "/items/active/starknight/weapons/melee/abilities/spear/sk_spearcharge/sk_spearcharge.weaponability"
+	},
+//SK_BurstRifle
+	{
+		"op" : "add",
+		"path" : "/SK_BurstRifle",
+		"value": "/items/active/weapons/ranged/abilities/SK_BurstRifle.weaponability"
 	}
 ]

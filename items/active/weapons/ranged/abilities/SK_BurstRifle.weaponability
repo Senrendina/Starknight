@@ -1,0 +1,69 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : [
+          { "particle" : "bouncyspark"},
+          { "particle" : "bouncyspark"},
+          { "particle" : "bouncyspark"},
+          { "particle" : "bouncyspark"},
+          { "particle" : "bouncyspark"},
+          { "particle" : "bouncyspark"}
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/shotgun1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Burst Rifle",
+    "type" : "SK_BurstRifle",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "SK_Bullet",
+    "inaccuracy" : 0.05,
+    "fireType" : "burst",
+    "burstTime" : 0.05,
+    "burstCount" : 3,
+	"projectileCount" : 1,
+    "projectileParameters" : {
+      "bounces" : 0,
+      "speed" : 100
+    },
+    "usePrimaryFireSound" : true,
+
+    // use baseDps and fireTime from primary fire
+
+    "baseDamageMultiplier" : 1.5,
+    "energyUsage" : 40,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
