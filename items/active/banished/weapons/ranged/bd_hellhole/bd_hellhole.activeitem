@@ -88,5 +88,12 @@
     }
   },
 
+  "altAbilityType" : "SK_BurstRifle",
+  "altAbility" : {
+  "name": "Banished Burst",
+  "projectileCount": 3,
+  "projectileType" : "bd_laser2"
+  },
+
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
