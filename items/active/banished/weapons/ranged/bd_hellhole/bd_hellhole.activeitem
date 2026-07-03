@@ -92,7 +92,7 @@
   "altAbility" : {
   "name": "Banished Burst",
   "projectileCount": 3,
-  "projectileType" : "bd_laser2"
+  "projectileType" : "BD_Laser2"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
