@@ -12,7 +12,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "SK_6.png",
+    "texture" : "SK_16.png",
     "variants" : 8,
     "lightTransparent" : false,
     "occludesBelow" : true,
