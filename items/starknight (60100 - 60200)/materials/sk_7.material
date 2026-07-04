@@ -9,13 +9,13 @@
   "health" : 10,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "SK_7.png",
-    "variants" : 1,
-    "lightTransparent" : false,
-    "occludesBelow" : true,
-    "multiColored" : true,
-    "zLevel" : 3380
+    "variants": 8,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 40
   }
 }

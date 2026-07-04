@@ -4,22 +4,21 @@
   "particleColor" : [55, 55, 55, 255],
   "itemDrop" : "SK_8",
   
-  "description" : "Builded attach with the floor",
-  "shortdescription" : "Flooring Attach",
+  "description" : "Metallic flooring",
+  "shortdescription" : "Metallic flooring",
   
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "health" : 6,
+  "health" : 10,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "SK_8.png",
-    "variants" : 1,
+    "texture" : "SK_6.png",
+    "variants" : 8,
     "lightTransparent" : false,
+    "occludesBelow" : true,
     "multiColored" : false,
-    "occludesBelow" : false,
-    "zLevel" : 50,
-	"radiantLight" : [0, 30, 56]
+    "zLevel" : 40
   }
 }
 
