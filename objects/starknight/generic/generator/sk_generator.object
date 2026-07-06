@@ -15,8 +15,8 @@
       "flipImages": true,
       "direction": "left",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
-      "frames": 5,
+      "imagePosition": [0, 0],
+      "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"]
@@ -25,8 +25,8 @@
       "image": "SK_generator.png:<color>.off",
       "direction": "right",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
-      "frames": 5,
+      "imagePosition": [0, 0],
+      "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
       "anchors": ["bottom"]

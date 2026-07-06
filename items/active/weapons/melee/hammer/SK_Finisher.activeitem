@@ -1,0 +1,113 @@
+{
+  "itemName" : "SK_Finisher",
+  "price" : 500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "bonk",
+  "shortdescription" : "Finisher",
+  "tooltipKind" : "sword",
+  "category" : "Hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "hammer"],
+  "inventoryIcon" : "SK_Finisher.png",
+
+  "animation" : "SK_Finisher.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "blade" : "fullbright.png"
+  },
+  "animationCustom" : { 
+    "sounds" : {
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "SK_HammerBlast",
+  "primaryAbility" : {
+
+    "fireTime" : 1.5,
+    "baseDps" : 8.0,
+	"knockback" : 15,
+
+    "stances" : {
+      "idle" : {
+		"twoHanded":false, 
+		"armRotation":40, 
+		"weaponRotation":40, 
+		"weaponOffset":[0, 0], 
+		"allowRotate":false,
+        "frontArmFrame" : "run.2",
+		"allowFlip":true
+	  },
+      "windup" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "frontArmFrame" : "run.2",
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+        "bounceTime" : 0.1,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 60, 61],
+          [0.875, "sin", 58, 59],
+          [1.0, "cos", 60, 60]
+        ],
+        "bounceArmAngle" : [
+          [0.9, "sin", 61, 60],
+		  [1.0, "linear", 61, 60]
+        ],
+
+        "weaponAngle" : [
+          [0.9, "linear", 40, 50],
+		  [1.00, "linear", 45, 60]
+        ],
+        "armAngle" : [
+          [0.9, "sin", 40, 50],
+		  [1.0, "linear", 60, 60]
+        ]
+      },
+      "preslash" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -35,
+        "weaponRotation" : -75,
+        "twoHanded" : true,
+        "smashTimer" : 1.5,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "spin" : {
+        "spinTimer" : 4,
+        "spinAngle" : 62.8
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+  "altAbility" : {
+  },
+
+  "learnBlueprintsOnPickup" : [
+  ],
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

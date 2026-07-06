@@ -1,0 +1,15 @@
+{
+  "projectileName" : "SK_HammerBlastExplosion",
+  "image" : "SK_HammerBlastExplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "fullbright" : true,
+  "knockback" : 20,
+  "knockbackDirectional" : true,  
+  "speed" : 0,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default"
+}

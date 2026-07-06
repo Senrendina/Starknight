@@ -8,7 +8,7 @@
             "frames" : 1
           },
           "on" : {
-            "frames" : 5,
+            "frames" : 3,
             "cycle" : 1.0,
             "mode" : "loop"
           }
@@ -23,11 +23,10 @@
         },
 
         "partStates" : {
-          "switchState" : {
+          "light" : {
             "off" : {
               "properties" : {
-                "image" : "<partImage>:<color>.off",
-				"fullbright" : true
+                "image" : "<partImage>:<color>.off"
               }
             },
 
@@ -47,7 +46,7 @@
         },
 
         "partStates" : {
-          "switchState" : {
+          "light" : {
             "off" : {
               "properties" : {
                 "image" : "<partImage>:<color>.off"
