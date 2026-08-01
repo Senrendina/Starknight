@@ -57,6 +57,6 @@
 	{
 		"op" : "add",
 		"path" : "/SK_HammerBlast",
-		"value": "/items/active/weapons/melee/abilities/hammer/SK_HammerBlast.weaponability"
+		"value": "/items/active/starknight/weapons/melee/abilities/hammer/SK_HammerBlast.weaponability"
 	}	
 ]

@@ -4,14 +4,14 @@
   "particleColor" : [237, 254, 255, 255],
   "itemDrop" : "SK_22",
   
-  "shortdescription" : "Support Column",
-  "description" : "Dark Column Support",
+  "shortdescription" : "Row support",
+  "description" : "Dark Support that separate panel wall",
   
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 8,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderTemplate" : "/tiles/rowtemplate.config",
   "renderParameters" : {
     "texture" : "SK_22.png",
     "variants" : 1,

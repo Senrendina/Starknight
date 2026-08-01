@@ -26,6 +26,7 @@
           "centered" : true,
           "zLevel" : 1,
           "image" : "<partImage><paletteSwaps><directives>",
+		  "fullbright" : true,
           "transformationGroups" : ["weapon"],
 		  "offset" : [-0.2, 1.0],
           "rotationCenter" : [0, 1.0],
@@ -36,6 +37,7 @@
       "handle" : {
         "properties" : {
           "centered" : true,
+		  "zLevel" : 0,
           "image" : "<partImage><paletteSwaps><directives>",
           "offset" : [-0.2, 1.0],
           "rotationCenter" : [0, 1.0],
@@ -46,6 +48,7 @@
         "properties" : {
           "zLevel" : -1,
           "centered" : true,
+		  "fullbright" : true,
           "offset" : [1.0, 2.5],
           "transformationGroups" : ["swoosh"],
           "rotationCenter" : [0, 0.5]

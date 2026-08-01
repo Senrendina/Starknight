@@ -12,7 +12,7 @@
   "ability" : {
     "name" : "Smash",
     "type" : "SK_HammerBlast",
-    "scripts" : ["/items/active/weapons/melee/abilities/hammer/SK_HammerBlast.lua"],
+    "scripts" : ["/items/active/starknight/weapons/melee/abilities/hammer/SK_HammerBlast.lua"],
     "class" : "HammerSmash",
 
 	"projectileType" : "SK_HammerBlastExplosion",

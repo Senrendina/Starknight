@@ -29,8 +29,8 @@
   "primaryAbilityType" : "SK_HammerBlast",
   "primaryAbility" : {
 
-    "fireTime" : 1.5,
-    "baseDps" : 8.0,
+    "fireTime" : 1.0,
+    "baseDps" : 25.0,
 	"knockback" : 15,
 
     "stances" : {
