@@ -6,7 +6,7 @@
 	"price": 50,
 
 	"description": "An old radio, it still plays music.",
-	"shortdescription": "starknight radio Planetarium",
+	"shortdescription": "Sk - United",
 	"race": "generic",
 
 	"apexDescription": "I'm amazed this radio still works.",
@@ -67,7 +67,7 @@
 		[0, 0]
 	],
 
-	"soundEffect": "/music/Planetarium.ogg",
+	"soundEffect": "/music/United.ogg",
 
 	"npcToy": {
 		"influence": [

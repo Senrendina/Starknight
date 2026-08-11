@@ -6,7 +6,7 @@
   "price" : 50,
 
   "description" : "An old radio, it still plays music.",
-  "shortdescription" : "starknight radio Victory",
+  "shortdescription" : "Sk - Misty Cloud",
   "race" : "generic",
 
   "apexDescription" : "I'm amazed this radio still works.",
@@ -66,7 +66,7 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "soundEffect" : "/music/Victory.ogg",
+  "soundEffect" : "/music/Cloud.ogg",
 
   "npcToy" : {
     "influence" : [
