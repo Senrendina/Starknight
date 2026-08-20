@@ -1,0 +1,46 @@
+{
+  "itemName" : "SK_HeavyarmorchestBD",
+  "price" : 800,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "chestarmour",
+  "description" : "Banished Heavy armor less heavy than Bastion, give more protection but less health and energy (accept augment)",
+  "shortdescription" : "The Crusader armor",
+  "tooltipKind" : "SK_Armor",
+
+  "maleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 7,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 80
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 80
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 170
+    ],
+    "acceptsAugmentType": "back",
+    "itemTags": [
+        "tier7armour"
+    ]
+}
