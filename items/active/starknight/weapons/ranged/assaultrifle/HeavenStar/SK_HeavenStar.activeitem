@@ -86,7 +86,17 @@
     }
   },
 
-  "altAbilityType" : "SK_HeavenCharge",
+"altAbilityType" : "grenadelauncher",
+"altAbility" : {
+  "name" : "ClusterLauncher", 
+  "elementalConfig" : {
+    "physical" : { "projectileType" : "SK_ClusterGrenade" },
+    "fire" : { "projectileType" : "SK_ClusterGrenade" },
+    "electric" : { "projectileType" : "SK_ClusterGrenade" },
+    "ice" : { "projectileType" : "SK_ClusterGrenade" },
+    "poison" : { "projectileType" : "SK_ClusterGrenade" }
+  }
+}
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
